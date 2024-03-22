@@ -1,0 +1,102 @@
+ @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ :root{
+    --primary-color : #42200b;
+    --secondary-color : #ffc135;
+    --tertiary-color : #df1c1c;
+    --text-dark: #212529;
+    --white: #ffffff;
+    --max-width:1500px;
+    --header-font-1 : "Alfa Slab One" , sans-serif;
+    --header-font-2 : "Bebas Neue", sans-serif;
+    --header-font-3 : "Montserrat" , sans-serif ;
+}
+
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: "Montserrat" , sans-serif;
+}
+
+.header {
+    background-image: url("assets/header-bg.png");
+    background-position: center center;
+    background-size : cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    max-width: var(--max-width);
+    margin-inline : auto;
+    z-index: 9;
+}
+
+.nav_header {
+    padding : 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+.nav_logo img{
+    max-width: 150px;
+}
+
+.nav_logo_dark{
+    display: none;
+}
+
+#menu_btn{
+    font-size: 1.5rem;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.nav_links{
+    position : absolute;
+    top: 60px;
+    left: 0;
+    width:100%;
+    padding: 2rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    gap: 2rem;
+    transition: .5s;
+    z-index: -1;
+    /* transform: translateY(-100%); */
+}
+
+.nav_links.open{
+    transform: translateY(0);
+    
+}
+
+.nav_links a{
+    font-weight:  600;
+    white-space: nowrap;
+    color: var(--white);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.nav_links a:hover{
+  color : var(--secondary-color);
+}
+
+
