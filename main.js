@@ -34,3 +34,8 @@ ScrollReveal.reveal(".header_image h1" , {
     ...scrollRevealOption,
     delay: 1000,
 });
+
+ScrollReveal().reveal(".order_card" , {
+ ...scrollRevealOption,
+ interval:500,
+});
