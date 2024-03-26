@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.playfair-regular {
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+
+body{
+    background-color: #EFBC9B;
+    font-family: "Playfair", serif;
+      
+}
+
+.container{
+    background-color: #fff;
+    width: 800px;
+   
+    border-radius: 2rem;
+    padding : 40px;
+    text-align: center;
+    box-shadow : 0 10px 10px 0px rgba(0,0,0,0.15);
+    /* transform : translate(-50% , -50%); */
+
+
+    position: absolute;
+    left : 20%;
+    top: 20%;
+  
+
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.quotedata{
+   padding : 10px;
+   font-size: 22px;
+}
+
+#author{
+    text-align: right;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#btn {
+    font-family: "Poppins", serif;
+    background-color:  transparent;
+    border : 2px solid  #D37676;
+    color : black;
+    padding :15px ;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#btn:hover{
+    color : white;
+    background-color: #D37676;
+    font-weight: 600;
+}
+
+
+
