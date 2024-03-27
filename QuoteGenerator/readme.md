@@ -1,4 +1,4 @@
-Mini Project 2 :
+# Mini Project 2 :
 
-A Quote Generator .
+## A Quote Generator
 
